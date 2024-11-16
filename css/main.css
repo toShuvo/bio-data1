@@ -8,6 +8,15 @@ body {
   font-family: 'Signika', sans-serif;
 }
 
+<style>
+      @media print {
+         html,
+         body {
+            display: none;
+         }
+      }
+   </style>
+
 @media(max-width: 600px) {
   body {
     width: 100%;
